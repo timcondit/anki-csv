@@ -1,0 +1,21 @@
+docker create [image]	Create a new container from a particular image	
+docker login	Log into the Docker Hub repository	
+docker pull [image]	Pull an image from the&nbsp;Docker Hub repository	
+docker push [username/image]	Push an image to the Docker Hub repository	
+docker search [term]	Search the Docker Hub repository for a particular term	
+docker tag [source] [target]	Create a target tag or alias that refers to a source image	
+docker start [container]	Start a particular container	
+docker stop [container]	Stop a particular container	
+docker exec -it [container] [command]	Run a shell command inside a particular container	
+docker pause [container]	Pause all processes running inside a particular container	
+docker history [image]	Display the history of a particular image	
+docker images	List all of the images that are currently stored on the system	
+docker inspect [object]	Display low-level information about a particular Docker object	
+docker ps	List all containers that are currently running	
+docker version	Display the version of Docker that is currently installed on the system	
+docker kill [container]	Kill a particular container	
+docker kill $(docker ps -q)	Kill all containers that are currently running	
+docker rm [container]	Delete a particular container that is not currently running	
+docker rm $(docker ps -a -q)	Delete all containers that are not currently running	
+docker system prune	<div>Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.</div>	
+docker update [OPTIONS] CONTAINER [CONTAINER...]	Update configuration of one or more containers	
