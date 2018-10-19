@@ -10,10 +10,8 @@ Regardless of the type of deck, the steps should be the same for the first impor
 
 Subdirectories correspond to sub-decks. For example, `linux/lvm` would look like this in `Anki`:
 
-    ```text
     - linux
         lvm
-    ```
 
 ## Importing a tab-separated deck
 
