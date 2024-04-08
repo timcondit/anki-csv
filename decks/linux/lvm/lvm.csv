@@ -10,5 +10,5 @@
 "What does <font color=""#fd8008"">lvdisplay</font> do?",display attributes of a logical volume
 "What does <font color=""#fd8008"">vgs</font> do?",show information about volume groups
 "What does <font color=""#fd8008"">lvextend</font> do?",extend the size of a logical volume
-"What is a <font color=""#fd8008"">physical extent (PE)</font>?,TODO
+"What is a <font color=""#fd8008"">physical extent (PE)</font>?",TODO
 "What does <font color=""#fd8008"">pvcreate</font> do?",TODO
